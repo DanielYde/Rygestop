@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background: linear-gradient(90deg,rgb(30, 144, 211), rgb(136, 237, 255));
+    background:rgb(211, 245, 255);
 }
 
 header {
@@ -18,7 +18,7 @@ header {
     margin-top: 0px;
     width: 200px;
     height: 98vh;
-    background-color: rgb(30, 144, 211);
+    background-color: rgb(65, 65, 65);
     border-radius: 10px;
     border: 3px solid black;
     border-color: black;
@@ -35,14 +35,24 @@ header {
     justify-content: center;
     align-items: center;
     float: right;
-    bottom: 10px;
+    bottom: 15px;
+    left: 10px;
+    margin-left: 3px;
+}
+
+.picture1 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    bottom: 0px;
+    left: 10px;
+    margin-left: 3px;
 }
 
 .overskrift1 {
     padding-top: 5px;
     font-size: 25px;
-    text-decoration: line-through red;
-    text-decoration-thickness: 3px;
     line-height: 55px;
     font-weight: bold;
     letter-spacing: 2.5px;
@@ -85,7 +95,9 @@ a {
 }
 
 .bottomtext {
-    margin-top: 43vh;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
 }
 
 .current {
@@ -115,7 +127,7 @@ nav {
     border-radius: 10px;
     border: 2px solid black;
     border-color: black;
-    background-color: rgb(0, 0, 0, 0.75);
+    background-color: rgb(65, 65, 65);
     color: white;
 }
 
@@ -132,7 +144,7 @@ main {
     border-radius: 10px;
     color: black;
     font-size: 25px;
-    padding: 10px;
+    padding: 10px 20px;
     line-height: 35px;
 }
 
@@ -141,14 +153,14 @@ main {
     font-size: 50px;
 }
 
-.center {
-    text-align: center;
-}
-
 .full-link {
     height: 35px;
     line-height: 35px;
     width: 175px;
     margin: auto;
+}
 
+.align {
+    text-align: justify;
+    
 }
