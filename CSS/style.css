@@ -46,6 +46,7 @@ header {
     align-items: center;
     float: right;
     bottom: 0px;
+    top: 20px;
     left: 10px;
     margin-left: 3px;
 }
