@@ -99,6 +99,8 @@ a {
     position: absolute;
     bottom: 0;
     margin-bottom: 5px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .current {
